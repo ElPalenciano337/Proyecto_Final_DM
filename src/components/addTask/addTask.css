@@ -1,0 +1,82 @@
+/* src/components/addTask/AddTask.css */
+.add-task {
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.add-task form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-group label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ddd;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #0d6efd;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.addTaskButton {
+    background-color: #00ccff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0d6efd;
+    transform: scale(1.03);
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+button:focus {
+    outline: none;
+    border-color: #0d6efd;
+}
+
+.add-task .input-group input,
+.add-task .input-group textarea {
+    transition: all 0.3s ease;
+}

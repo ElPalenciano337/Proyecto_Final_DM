@@ -1,0 +1,16 @@
+.summary-container {
+    background-color: #1c1c1c;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.summary-container h2 {
+    color: #00ccff;
+}
+
+.summary-container p {
+    font-size: 14px;
+}
