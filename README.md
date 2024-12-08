@@ -10,11 +10,11 @@ Clonar la rama en una carpeta local segura
 
 ## Paso #3
 Ejecutar mediante una terminal en la raíz de la carpeta el comando:
-npm install
+**npm install**
 
 ## Paso #4
 Ejecutar el comando:
-ionic serve
+**ionic serve**
 
 ## Paso #5
 ¡Disfrutar de la aplicación!
